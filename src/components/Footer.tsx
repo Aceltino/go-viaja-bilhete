@@ -7,7 +7,7 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-xl font-bold mb-4 text-primary">GoBilhete</h3>
+            <h3 className="text-xl font-bold mb-4 text-primary">Viaja Fácil</h3>
             <p className="text-muted-foreground mb-4">
               A forma mais moderna de viajar por Angola. Conectando passageiros às melhores empresas de transporte.
             </p>
@@ -84,7 +84,7 @@ export const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-muted-foreground">
                 <Mail className="h-5 w-5 mt-0.5 flex-shrink-0" />
-                <span>suporte@gobilete.ao</span>
+                <span>suporte@viajafacil.ao</span>
               </li>
               <li className="flex items-start gap-2 text-muted-foreground">
                 <Phone className="h-5 w-5 mt-0.5 flex-shrink-0" />
@@ -99,7 +99,7 @@ export const Footer = () => {
         </div>
 
         <div className="border-t pt-8 text-center text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} GoBilhete. Todos os direitos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} Viaja Fácil. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>

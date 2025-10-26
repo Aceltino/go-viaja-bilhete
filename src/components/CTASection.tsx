@@ -1,7 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { Building2, User } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 export const CTASection = () => {
+  const navigate = useNavigate();
+  
   return (
     <section className="py-16 lg:py-24">
       <div className="container mx-auto px-4">
@@ -18,6 +21,7 @@ export const CTASection = () => {
               <Button 
                 size="lg" 
                 className="bg-background text-primary hover:bg-background/90 shadow-lg"
+                onClick={() => navigate("/auth")}
               >
                 Criar Conta Grátis
               </Button>
@@ -37,6 +41,7 @@ export const CTASection = () => {
               <Button 
                 size="lg" 
                 className="bg-background text-secondary hover:bg-background/90 shadow-lg"
+                onClick={() => navigate("/auth")}
               >
                 Cadastrar Empresa
               </Button>
